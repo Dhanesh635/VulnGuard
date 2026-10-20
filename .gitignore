@@ -1,0 +1,5 @@
+.env
+data/cache/
+*.parquet
+**/__pycache__/
+*.pyc

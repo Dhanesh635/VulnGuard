@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-21T14:00:10.133662+00:00",
+  "dataset": {
+    "name": "test_vulns",
+    "path": "D:\\VulnGuard\\VulnGuard\\data\\test_vulns",
+    "files": 3,
+    "functions": 5,
+    "risk_threshold": 49,
+    "unavailable_tools": [
+      "cppcheck",
+      "semgrep"
+    ]
+  },
+  "results": [
+    {
+      "approach": "VulnGuard ML Triage",
+      "total_functions": 5,
+      "vulnerabilities_detected": 2,
+      "detection_rate": 0.4,
+      "patches_generated": 0,
+      "patches_validated": 0,
+      "patch_success_rate": 0.0,
+      "regressions_caused": 0,
+      "regression_rate": 0.0,
+      "total_tokens": 0,
+      "avg_tokens_per_fix": 0.0,
+      "total_time_seconds": 0.07,
+      "avg_time_per_fix_seconds": 0.07,
+      "precision": null,
+      "recall": null
+    }
+  ]
+}
